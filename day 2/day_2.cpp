@@ -1,10 +1,5 @@
-#include <sys/time.h>
 #include <fstream>
-#include <iostream>
-#include <sstream>
 #include <string>
-#include <print>
-#include <cstdio>
 #include <bits/stdc++.h>
 #include <math.h>
 
