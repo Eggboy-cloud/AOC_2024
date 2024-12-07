@@ -86,12 +86,12 @@ int main(int argc, char * argv[]) {
     while (getline(file, line)) {
         testLine(rules,line, values);
     }
-    if(PART_1||PART_2) printf("Updates:");
-    if(PART_1)printf("\nCorrectly-ordered updates, %d",values[0]);
-    if(PART_2)printf("\nIncorrectly-ordered updates, %d",values[1]);
     // Close the file stream once all lines have been
     // read.
     file.close();
+    if(PART_1||PART_2) printf("Updates:");
+    if(PART_1)printf("\nCorrectly-ordered updates, %d",values[0]);
+    if(PART_2)printf("\nIncorrectly-ordered updates, %d",values[1]);
 
     return 0;
 }
